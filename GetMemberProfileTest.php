@@ -8,5 +8,5 @@
             $memberIds = array_merge($memberIds, $data['memberIds']);
             $continuationToken = isset($data['next']) ? $data['next'] : null;
         } while ($continuationToken);
-echo $memberIds;
+echo $response;
     
