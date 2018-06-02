@@ -14,7 +14,7 @@ $groupId = 'Cd6988208621ff6acb9b2be60d320b0e5';
 *$url = 'https://api.line.me/v2/bot/group/C736d844d8deb0e75256f7fcf6b388ff1/members/ids';
 */
 
-$url = 'https://api.line.me/v2/bot/group/'.$groupId.'/member/'.$userId;
+$url = 'https://api.line.me/v2/bot/group/C736d844d8deb0e75256f7fcf6b388ff1/member/'.$userId;
 
 $headers = array('Authorization: Bearer ' . $access_token);
 
