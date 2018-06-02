@@ -5,7 +5,11 @@ $access_token = 'Kv3HpQDne5CosW0hTmIWNoBtT8CuZFUjeboZFoqzRc6Pth4RyV3+9ER7nJSDxh3
 
 $userId = 'U5599ad410011ee8c57de3068fdfa756d';
 
-$url = 'https://api.line.me/v2/bot/profile/'.$userId;
+/**
+*$url = 'https://api.line.me/v2/bot/profile/'.$userId;
+*/
+
+$url = 'https://api.line.me/v2/bot/group/C736d844d8deb0e75256f7fcf6b388ff1/member/'.$userId;
 
 $headers = array('Authorization: Bearer ' . $access_token);
 
